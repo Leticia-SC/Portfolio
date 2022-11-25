@@ -1,0 +1,107 @@
+header{
+    background-color: #282828;
+    padding-bottom: 30px;
+}
+
+/* SUBSESSÃO MENU */
+.menu{
+    padding: 10px 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu .icons{
+    text-align: right;
+}
+
+.menu .icons i{
+    color: white;
+    font-size: 34px;
+    margin: 0 7px;
+    margin-top: 18px;
+}
+
+.menu .icons i:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    color: #fdb2b7;
+    filter:drop-shadow(0 0 15px #fdb2b7);
+}
+
+.menu .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.menu .nav span{
+    color: white;
+    margin: 0 20px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu .nav span:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #fdb2b7;
+    transform-origin: center;
+    transition: transform 0.4s ease-out;
+}
+
+.menu .nav span:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+  }
+
+/* SUBSESSÃO BANNER */
+.banner{
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.banner .cta{
+    color: white;
+}
+
+.banner .cta h3{
+    color: #fdb2b7;
+    font-size: 26px;
+}
+
+.banner .cta h1{
+    font-size: 38px;
+}
+
+.banner .cta .line{
+    width: 90px;
+    height: 2px;
+    background-color: #fdb2b7;
+}
+
+.banner .cta p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.banner .cta .btn{
+    margin-top: 10px;
+    border: 1px solid #fdb2b7;
+    background: none;
+    color: #fdb2b7;
+    padding: 10px 30px;
+}
+
+.banner .cta .btn:hover{
+    transition: 0.4s;
+    background-color: #fdb2b7;
+    color: #282828;
+}

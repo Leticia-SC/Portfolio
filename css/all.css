@@ -1,0 +1,12 @@
+*{
+    font-family: 'Courier Prime';
+}
+
+.centered {
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+.my-container{
+    padding: 0 2%;
+}

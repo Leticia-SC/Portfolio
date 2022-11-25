@@ -1,0 +1,85 @@
+
+.about{
+    background-color: #313131;
+    padding: 50px 0;
+}
+
+.about h3{
+    color: #fdb2b7;
+    font-size: 22px;
+    text-align: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1{
+    font-size: 30px;
+    color: white;
+}
+
+.about .line{
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    margin: 0 15px;
+    position: relative;
+    top: -10%;
+}
+
+.about p{
+    margin: 20px auto 40px auto;
+    font-size: 16px;
+    color: white;
+    max-width: 70%;
+}
+
+/* SUBSESSÃO INFO */
+.info{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.info h2{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    justify-content: space-evenly;
+}
+
+.details{
+    width: 50%;
+}
+
+.details .info-single{
+    text-align: left;
+    display: flex;
+   
+}
+
+.details p{
+    color: #fdb2b7;
+    font-size: 16px;
+    text-align: left;
+}
+
+.interest-card{
+    border: 1px solid #fdb2b7;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    width: 150px;
+}
+
+.interest-card i{
+    color: white;
+    font-size: 50px;
+}
+
+.interest-card p{
+    color: white;
+}
